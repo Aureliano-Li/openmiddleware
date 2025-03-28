@@ -9,3 +9,11 @@
 zookeeper
 消息队列中间件:
 kafka
+
+
+## 开发流程
+
+operator-sdk init --domain openmiddleware.com --repo github.com/openmiddleware/xxx-operator
+
+operator-sdk create api --group db --version v1alpha1 --kind xxxCluster --resource --controller
+
