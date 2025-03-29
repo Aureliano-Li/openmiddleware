@@ -17,3 +17,6 @@ operator-sdk init --domain openmiddleware.com --repo github.com/openmiddleware/x
 
 operator-sdk create api --group db --version v1alpha1 --kind xxxCluster --resource --controller
 
+## 中间件operator开发基本逻辑
+1. pod都是会重启的，因此不能依赖非pvc的存储
+2. 配置文件有两种处理方式，一是每次启动pod时，使用初始化容器通过脚本生成；二是将配置文件保存到pvc里。
