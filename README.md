@@ -5,10 +5,23 @@
 
 基于operator-sdk开发的常用中间件operator,简化中间件部署、运维、备份、监控。
 ## 目前已支持的中间件如下：
-微服务治理中间件:
+微服务治理中间件: Microservice Middleware,msm
 zookeeper
-消息队列中间件:
+nacos
+apollo
+
+消息队列中间件:Message Queue,mq
 kafka
+rocketmq
+pulsar
+
+存储：Storage,stg
+minio
+bookkeeper
+
+数据库：Database,db
+mysql
+postgresql
 
 
 ## 开发流程
