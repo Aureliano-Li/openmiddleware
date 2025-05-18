@@ -31,6 +31,9 @@ skywalking
 
 
 ## 开发流程
+mkdir xxx-operator
+
+chmod -R 777 xxx-operator
 
 operator-sdk init --domain openmiddleware.com --repo github.com/openmiddleware/xxx-operator
 
